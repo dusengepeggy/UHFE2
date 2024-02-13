@@ -1,0 +1,47 @@
+.edit-cit-h2{
+    margin-left: 30%;
+    margin-top: 5%;
+    background-color: #4D2D4A;
+    text-align: center;
+    width: 20%;
+    padding: 6px 20px;
+    font-size: 16px;
+
+    color: white;
+    border-radius:20px;
+}
+th{
+    border: 1px solid black;
+  
+}
+table {
+    border-collapse: collapse;
+    width: 60%;
+  
+    margin-left: 30%;
+  }
+  th,
+td {
+  border-bottom: 1px solid #151515; /* Adjust the color as needed */
+  padding: 8px 30px;
+  text-align: left;
+}
+th {
+    background-color: #4d4d42;
+    color: white;
+    padding: 2%; /* Optional: Add a background color to header cells */
+  }
+  .actionicons {
+    display: flex;
+    gap: 12px;
+  }
+  .input-citizen{
+    /* margin-left: 100%; */
+    width: 20%;
+    padding: 6px 7px;
+    border-radius: 30px;
+    margin-left: 30%;
+    margin-top: 5%;
+    
+    
+}

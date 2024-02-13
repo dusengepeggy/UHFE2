@@ -1,0 +1,239 @@
+.register-form{
+    /* border: 2px solid #4D2D4A; */
+    /* box-shadow:  0 0 10px rgba(0, 0, 0, 1); */
+    
+}
+
+
+.register-container{
+    
+  width: 130%;
+  left: 100%;
+  padding: 5px;
+  /* border: 1px solid black; */
+  border-radius: 3px;
+  margin-top: 5%;
+  border-top: 5px solid #4D2D4A;
+  background-color: rgba(229, 232, 235, 0.014);
+  padding-top: 5%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+
+
+.h2register{
+    margin-left: 200%;
+    margin-top: 25%;
+    
+    background-color: #4D2D4A;
+    color: white;
+    width: 650%;
+    text-align: center;
+    border-radius: 30px;
+    text-transform: uppercase; 
+}
+.adminoption{
+    display: flex;
+   align-items: center;
+}
+.useroption{
+    display: flex;
+    align-items: center;
+}
+.useropt{
+    margin-left: 3%;
+}
+.maritaloption{
+    display: flex;
+    align-items: center;
+}
+.marriedopt{
+    margin-right: 3%;
+}
+.reg-btn{
+    padding: 1% 15%;
+    margin-left: 32%;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #4D2D4A;
+    color: white;
+    margin-top: 7%;
+}
+.reg-btn:hover{
+    background-color: transparent;
+    border: 2px solid #4D2D4A;
+    color: #4D2D4A;
+    font-weight: bold;
+}
+.register-form{
+    width: 650%;
+    margin-left: 200%;
+    margin-top: 30%;
+
+}
+.register-form label{
+    margin-top: 1%;
+    /* margin-left: 3%; */
+}
+.part1-register{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 10%;
+}
+.part1-register-2{
+    display: flex;
+    justify-content: space-around;
+
+}
+.part2-register{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+.part3-register{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 5%;
+}
+.part4-register{
+    display: flex;
+    justify-content: space-evenly;
+}
+.isibo{
+    padding: 3% 3%;
+    width: 110%;
+    margin-top: 3%;
+    border-radius: 5px;
+
+
+}
+.reg-input{
+    padding: 3% 3%;
+    width: 100%;
+    margin-top: 3%;
+    border-radius: 5px;
+
+}
+.reg-input2{
+    padding: 3% 3%;
+    width: 110%;
+    margin-top: 3%;
+    border-radius: 5px;
+}
+.reg-input3{
+    padding: 3% 3%;
+    width: 110%;
+    margin-top: 6%;
+    border-radius: 5px;
+    margin-left: -15%;
+}
+.reg-input4{
+    padding: 3% 3%;
+    width: 110%;
+    margin-top: 6%;
+    border-radius: 5px;
+}
+.first-name{
+    flex-direction: column;
+    
+}
+.last-name{
+    flex-direction: column;
+}
+.reg-email{
+    flex-direction: column;
+}
+.reg-phone{
+    flex-direction: column;
+
+}
+.reg-date{
+    flex-direction: column; 
+    margin-right: 3%;
+}
+.reg-id{
+    flex-direction: column;
+   
+}
+.reg-akarere{
+    flex-direction: column;
+   
+}
+.reg-sector{
+    flex-direction: column;
+    margin-left: -8%;
+}
+.reg-cell{
+    flex-direction: column;
+    margin-left: -15%;
+   
+}
+.reg-village{
+    flex-direction: column;
+    margin-right: 3%;
+}
+#role{
+    margin-left: 10%;
+    
+}
+#marital{
+    margin-left: 7%;
+    display: flex;
+    
+}
+.h4-residence{
+    margin-left: 4%;
+    
+}
+.maritaloption{
+    margin-left: 10%;
+
+}
+.h4-role{
+    margin-left: 4%;
+}
+.adminoption{
+    margin-left: 10%;
+}
+.useroption{
+    margin-left: 10%;
+
+}
+.reg-dob{
+    width: 156%;
+    padding: 3% 3%;
+    border-radius: 5px;
+    
+}
+.demographic{
+    display: flex;
+    justify-content: space-evenly;
+}
+.h4-menities{
+    margin-left: -4%;
+}
+
+
+/* new edit css*/
+.cancel-update-user{
+    margin-left: 35%;
+    margin-top: 8%;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    display: flex;
+    border: 1px solid rgb(154, 80, 80);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1% 4%;
+    width: 27%;
+    border-radius: 5px;
+}
+.cancel-update-user:hover{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
