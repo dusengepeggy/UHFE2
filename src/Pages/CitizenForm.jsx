@@ -138,7 +138,7 @@ function CitizenForm() {
     setSaving(true);
 
     const response = await fetch(
-      "http://localhost:4000/api/UH/v1/citizen/add", // API endpoint
+      "https://umudugudu-hub.onrender.comgi/api/UH/v1/citizen/add", // API endpoint
       {
         method: "POST",
         headers: {
