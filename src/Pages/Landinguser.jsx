@@ -26,7 +26,7 @@ function Landinguser() {
       localStorage.setItem("userInfo", modUser);
     }
     else {
-      window.location.href = "http://localhost:5174/login";
+      window.location.href = "https://uhfe-ewqw9iobk-peggys-projects.vercel.app/login";
     }
   }
 
@@ -38,7 +38,7 @@ function Landinguser() {
 
   const [families, setFamilies] = useState([]);
   const fetchCitizen = () => {
-    fetch("http://localhost:4000/api/UH/v1/citizen/list")
+    fetch("https://umudugudu-hub.onrender.com/api/UH/v1/citizen/list")
       .then((res) => res.json())
       .then((data) => {
         setFamilies(data.citizen);
