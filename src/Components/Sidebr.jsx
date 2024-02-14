@@ -62,7 +62,8 @@ function Sidebar({children}) {
 
   const logout = () => {
     localStorage.clear();
-    window.location.href = "http://localhost:5174/login";
+    window.location.href = "https://uhfe-ewqw9iobk-peggys-projects.vercel.app/login
+    ";
   };
 
   //button js handler
