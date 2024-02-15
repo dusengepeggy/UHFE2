@@ -63,7 +63,7 @@ function Landinguser() {
       </div>
 
       <div className='user-leftside' data-aos="fade-up">
-        <h2 className='user-count'> Counted Families</h2>
+        <h2 className='user-count'>Number Of Counted Families</h2>
         <p className='user-icoon'><IoIosPeople size={100} /></p>
         <p className='user-num'>{families.length}</p>
       </div>
