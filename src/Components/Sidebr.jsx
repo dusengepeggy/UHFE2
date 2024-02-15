@@ -89,7 +89,11 @@ function Sidebar({children}) {
               {/* <FaRegUser size={60} /> */}
               </div>
             </div><br /><br /><br />
-            <div className="email"> {email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email} <br />{role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role}</div><br />
+            <div className="email"> {email!==null?email:JSON.parse(localStorage.getItem("userInfo"))?.email}
+             <br />
+             Mutwarasibo
+             {/* {role!==null?role:JSON.parse(localStorage.getItem("userInfo"))?.role} */}
+             </div>
             {/* <div className='email'>{data?.role}</div> */}
          
             {

@@ -59,7 +59,7 @@ function Landinguser() {
         <br />
 
 
-        <h2 data-aos="fade-up" className='h1-user'>UMUDUGUDU-HUB </h2>
+        <h2 data-aos="fade-up" className='h1-user'>VILLAGE-CONNECT </h2>
       </div>
 
       <div className='user-leftside' data-aos="fade-up">
