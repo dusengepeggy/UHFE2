@@ -62,7 +62,7 @@ function Sidebar({children}) {
 
   const logout = () => {
     localStorage.clear();
-    window.location.href = "https://uhfe-peggys-projects.vercel.app/login";
+    window.location.href = "https://uhfe-peggys-projects.vercel.app";
   };
 
   //button js handler
